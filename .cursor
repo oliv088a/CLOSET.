@@ -1,0 +1,68 @@
+{
+  "maxFileSize": 5242880,
+  "maxFilesToIndex": 10000,
+  "maxSearchResults": 100,
+  "indexExcludePatterns": [
+    "node_modules/**",
+    "build/**",
+    "dist/**",
+    ".expo/**",
+    "ios/build/**",
+    "android/build/**",
+    "*.log",
+    "*.map",
+    "*.min.js",
+    "*.min.css",
+    "*.bundle.js",
+    "*.ipa",
+    "*.apk",
+    "*.aab",
+    "*.dSYM.zip",
+    "*.hprof",
+    "*.tmp",
+    "*.temp",
+    ".DS_Store"
+  ],
+  "performance": {
+    "debounceDelay": 500,
+    "maxConcurrentOperations": 2,
+    "hardwareAcceleration": true,
+    "memoryOptimization": true
+  },
+  "editor": {
+    "formatOnSave": true,
+    "wordWrap": "on",
+    "largeFileOptimizations": true
+  },
+  "typescript": {
+    "disableAutomaticTypeAcquisition": true,
+    "disableAutomaticValidation": true
+  },
+  "javascript": {
+    "disableAutomaticTypeAcquisition": true,
+    "disableAutomaticValidation": true
+  },
+  "search": {
+    "excludePatterns": [
+      "node_modules/**",
+      "build/**",
+      "dist/**",
+      ".expo/**",
+      "ios/build/**",
+      "android/build/**",
+      "*.log",
+      "*.map",
+      "*.min.js",
+      "*.min.css",
+      "*.bundle.js",
+      "*.ipa",
+      "*.apk",
+      "*.aab",
+      "*.dSYM.zip",
+      "*.hprof",
+      "*.tmp",
+      "*.temp",
+      ".DS_Store"
+    ]
+  }
+}

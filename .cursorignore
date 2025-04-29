@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+.git/
+ios/Pods/
+android/build/
+android/app/build/
+
+# Build outputs
+build/
+dist/
+.expo/
+web-build/
+
+# Cache directories
+.cache/
+.npm/
+.yarn/
+
+# Large media files
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.zip
+*.tar
+*.gz
+
+# iOS specific
+ios/build/
+ios/DerivedData/
+*.ipa
+*.app.dSYM.zip
+
+# Android specific
+*.apk
+*.aab
+*.hprof
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files (keeping .env.example)
+.env*
+!.env.example
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store 
